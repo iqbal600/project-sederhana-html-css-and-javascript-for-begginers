@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+body {
+    font-family: "gowun batang", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155,150,101);
+}
+h1{
+    color: antiquewhite;
+    font-style: oblique;
+    border-bottom: 1px solid #000;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid hsl( 280, 100%, 45%);
+    padding: 5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    filter: drop-shadow(2px 2px 5px purple);
+    -webkit-filter: drop-shadow(2px 2px 5px purple);
+}
+#display {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: "gowun batang", serif;
+    color:antiquewhite;
+    margin: 20px 0;
+}
+#controls button {
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(7, 7, 7);
+    background-color: hsl( 280, 100%, 45%);
+    font-family: "gowun batang", serif;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -ms-transition: background-color .5s ease-in-out;
+    -o-transition: background-color .5s ease-in-out;
+}
+#starBtn:hover {
+    background-color: hsl(100, 99%, 55%);
+}
+#stopBtn:hover {
+    background-color: hsl(0, 98%, 50%);
+}
+#resetBtn:hover {
+    background-color: hsl(172, 93%, 50%);
+}
